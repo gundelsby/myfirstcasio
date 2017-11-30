@@ -1,0 +1,17 @@
+html { font: 100%/1.5 'LFT Etica', 'Helvetica Neue', 'Arial', sans-serif }
+
+body {
+    padding: 30px;
+}
+
+.channel, .keyboard {
+    margin: 15px 0;
+}
+
+.channel {
+    padding: 10px 0;
+}
+
+.keyboard button:not(:first-child) {
+    margin-left: 18px;
+}

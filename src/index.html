@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://static.nrk.no/core-fonts/latest/core-fonts.min.css">
+	<link rel="stylesheet" href="https://static.nrk.no/core-css/latest/core-css.min.css">
+	<link rel="stylesheet" href="css/myfirstcasio.css">
 	<title>My First Casio</title>
 </head>
+
 <body>
-	<script type="text/javascript" src="js/index.js"></script>
+	<section class="master">
+		<h1>My First Casio</h1>
+		<div class="keyboard nrk-grid"></div>
+		<button class="panic nrk-button">PANIC!</button>
+	</section>
+
+	<section class="nrk-grid channels">
+		<section class="channel">
+			<section class="nrk-grid parameters">
+				<div class="waveform-picker nrk-grid"></div>
+			</section>
+
+			<section class="nrk-grid visualisation">
+				<div class="scope">
+					<canvas class="screen"></canvas>
+				</div>
+			</section>
+		</section>
+
+		<section class="channel">
+			<section class="nrk-grid parameters">
+				<div class="waveform-picker nrk-grid"></div>
+			</section>
+
+			<section class="nrk-grid visualisation">
+				<div class="scope">
+					<canvas class="screen"></canvas>
+				</div>
+			</section>
+		</section>
+
+		<section class="channel">
+			<section class="nrk-grid parameters">
+				<div class="waveform-picker nrk-grid"></div>
+			</section>
+
+			<section class="nrk-grid visualisation">
+				<div class="scope">
+					<canvas class="screen"></canvas>
+				</div>
+			</section>
+		</section>
+	</section>
+
+	<script src="https://static.nrk.no/core-icons/latest/core-icons.min.js"></script>
+	<script type="module" src="js/index.js"></script>
 </body>
+
 </html>
