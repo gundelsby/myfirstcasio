@@ -1,0 +1,22 @@
+{
+  "name": "@nrk/myfirstcasio",
+  "version": "1.0.0",
+  "description": "Making a horrible synthesizer to learn about web audio",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gundelsby/myfirstcasio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gundelsby/myfirstcasio/issues"
+  },
+  "homepage": "https://github.com/gundelsby/myfirstcasio#readme",
+  "standard": {
+    "env": "browser"
+  }
+}
